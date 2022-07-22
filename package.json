@@ -1,0 +1,40 @@
+{
+  "name": "meetingzone",
+  "version": "1.0.0",
+  "description": "Find a meeting time across timezones",
+  "type": "module",
+  "bin": "src/index.js",
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.4.2",
+    "cli-color": "^2.0.3",
+    "jsbi": "^4.3.0",
+    "table": "^6.8.0",
+    "tslib": "^2.4.0"
+  },
+  "scripts": {
+    "lint": "prettier --check '{src,test}/**/*.{ts,tsx,js,jsx}'",
+    "prettier": "prettier --write '{src,test}/**/*.{ts,tsx,js,jsx}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramus/meetingzone.git"
+  },
+  "keywords": [
+    "timezone"
+  ],
+  "author": {
+    "name": "Bramus Van Damme",
+    "email": "bramus@bram.us",
+    "twitter": "@bramus",
+    "web": "https://www.bram.us/"
+  },
+  "bugs": {
+    "url": "https://github.com/bramus/meetingzone/issues"
+  },
+  "homepage": "https://github.com/bramus/meetingzone#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
