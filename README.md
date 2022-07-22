@@ -1,3 +1,4 @@
+![Find a meeting time across timezones.](./screenshots/meetingzone.png)
 # MeetingZone
 
 Find a meeting time across timezones.
